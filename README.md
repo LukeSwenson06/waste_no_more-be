@@ -26,3 +26,14 @@ Things you may want to cover:
 <h1> End Points </h1>
 
 Add item to fridge 
+
+{
+  "data": {
+        "id": "2511",
+        "type": "item",
+        "attributes" : {
+          "name": "apple",
+          "expiration": "2112-12-21"
+        }
+  }
+}
