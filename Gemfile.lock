@@ -42,6 +42,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     arel (9.0.0)
     bootsnap (1.12.0)
       msgpack (~> 1.2)
@@ -49,6 +51,8 @@ GEM
     byebug (11.1.3)
     coderay (1.1.3)
     concurrent-ruby (1.1.10)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     diff-lcs (1.5.0)
     docile (1.4.0)
@@ -65,6 +69,7 @@ GEM
       thor (>= 0.14.0, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    hashdiff (1.0.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jsonapi-serializer (2.2.0)
@@ -90,6 +95,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    public_suffix (4.0.7)
     puma (3.12.6)
     racc (1.6.0)
     rack (2.2.4)
@@ -123,6 +129,7 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rexml (3.2.5)
     rspec-core (3.11.0)
       rspec-support (~> 3.11.0)
     rspec-expectations (3.11.0)
@@ -164,6 +171,11 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
+    vcr (6.1.0)
+    webmock (3.14.0)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -189,6 +201,8 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+  vcr
+  webmock
 
 RUBY VERSION
    ruby 2.7.4p191
