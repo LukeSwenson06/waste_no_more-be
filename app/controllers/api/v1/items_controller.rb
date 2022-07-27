@@ -8,5 +8,5 @@ end
 
 private
 def item_params
-  params.require(:item).permit(:name, :expiration)
+  params.permit(:name, :expiration)
 end
