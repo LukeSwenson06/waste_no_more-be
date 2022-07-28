@@ -14,4 +14,19 @@ describe "Create an item request", type: :request do
 
   created = JSON.parse(response.body, symbolize_names: true)
   end
+
+  it "does not create item without all params" do
+    user = create(:user)
+    params = {expiration: "2112-12-21", user_id: user.id}
+    headers = { "Content-Type" => "application/json" }
+
+    item_count = Item.all.length
+
+    post "/api/v1/items", headers: headers, params: JSON.generate(params)
+
+    expect(response).to_not be_successful
+    expect(Item.all.length).to eq(item_count)
+
+    created = JSON.parse(response.body, symbolize_names: true)
+  end
 end
