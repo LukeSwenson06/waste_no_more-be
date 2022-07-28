@@ -10,4 +10,12 @@ class RecipeService
     end
    JSON.parse(response.body, symbolize_headers: true)
   end
+
+  def self.get_recipe_details(id)
+    response = connection.get("/recipes/#{id}/information") do |faraday|
+      faraday.params['includeNutrition'] = false
+      faraday.params['apiKey'] = ENV['recipe_api_key']
+    end
+  json = JSON.parse(response.body, symbolize_headers: true)
+  end
 end

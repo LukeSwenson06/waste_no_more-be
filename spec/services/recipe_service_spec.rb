@@ -11,12 +11,11 @@ RSpec.describe 'RecipeService' do
     expect(recipe).to be_a Hash
   end
 
-  it "can retrieve data and parses response for searching recipe by id" do
+  it "can retrieve data and parses response for searching recipe by id", :vcr do
     parsed_json = RecipeService.get_recipe_details(991625)
 
-    expect(parsed_json).to be_a Array
-    recipe = parsed_json.first
-    expect(recipe).to include("id", "title", "sourceUrl")
-    expect(recipe).to be_a Hash
+    expect(parsed_json).to be_a Hash
+    expect(parsed_json).to include("id", "title", "sourceUrl")
+    expect(parsed_json).to be_a Hash
   end
 end

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 27 Jul 2022 23:59:44 GMT
+      - Thu, 28 Jul 2022 00:52:45 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,21 +40,21 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.1'
       X-Api-Quota-Used:
-      - '1.1'
+      - '6.4'
       X-Api-Quota-Left:
-      - '148.9'
+      - '143.6'
       Cf-Cache-Status:
       - DYNAMIC
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UsUx%2FxCg4OE8RaYfWve3spipsheY2MfP6tlscwfgrDsT2ah2L5TMbeNRM2D4Fx2TMMWXuIp57wavw2pCwyyUUzP6Y2R5%2Fs44Px38X5VRrt5M3btRvDmv4G250x%2BVPEdAvkjbeN4yRn4nHgAYYFOXM3E%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PzXDMHY%2B%2BQNpnfUZIc14bkgA1pNaBaUSUfaTbCNjlPsdfKsSYdLDIS02Q5QMn60o5XwvYo29KbAbfcTJX3HFZVjh4RkaE9N66wfwxE8pJbg%2Bbz7xG5%2FrvCHFOXxn0csTviYHgj%2B3tBks5axCkmgCg0k%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7319549ede158eb4-DEN
+      - 7319a2240f4ac7b9-DEN
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -116,5 +116,5 @@ http_interactions:
         beaten","meta":["beaten"],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
         Eggs, Other Dairy","name":"milk","original":"1 cup cold milk","originalName":"cold
         milk","meta":["cold"],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1}]'
-  recorded_at: Wed, 27 Jul 2022 23:59:44 GMT
+  recorded_at: Thu, 28 Jul 2022 00:52:45 GMT
 recorded_with: VCR 6.1.0

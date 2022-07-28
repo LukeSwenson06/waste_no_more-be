@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/991625/information?apiKey=244f5d456f3e4d1d8c5e414081025f50&includeNutrition=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 28 Jul 2022 00:52:49 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1913'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, Content-Language,
+        Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.0'
+      X-Api-Quota-Used:
+      - '7.4'
+      X-Api-Quota-Left:
+      - '142.6'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mHOSyMFbuAo5UHkS6f7L9oFOQhMHPxK4DpTt97yDQm%2FiF6N%2FMpoCviDDijreCbMm7e79MnFynK1CfnRMFrnuytZ6OqlSaOH12PzsOG5LChdOMt23JT0mTFaDnBN1okl%2FbitToyDk963NY4pr80F73FU%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7319a2477c6f8e9f-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"vegetarian":true,"vegan":false,"glutenFree":true,"dairyFree":false,"veryHealthy":false,"cheap":false,"veryPopular":false,"sustainable":false,"lowFodmap":false,"weightWatcherSmartPoints":7,"gaps":"no","preparationMinutes":10,"cookingMinutes":25,"aggregateLikes":14,"healthScore":2,"creditsText":"Jen
+        West","sourceName":"Pink When","pricePerServing":54.11,"extendedIngredients":[{"id":1123,"aisle":"Milk,
+        Eggs, Other Dairy","image":"egg.png","consistency":"SOLID","name":"eggs","nameClean":"egg","original":"4
+        eggs","originalName":"eggs","amount":4.0,"unit":"","meta":[],"measures":{"us":{"amount":4.0,"unitShort":"","unitLong":""},"metric":{"amount":4.0,"unitShort":"","unitLong":""}}},{"id":1123,"aisle":"Milk,
+        Eggs, Other Dairy","image":"egg.png","consistency":"SOLID","name":"eggs","nameClean":"egg","original":"6
+        Cadbury eggs.","originalName":"Cadbury eggs","amount":6.0,"unit":"","meta":[],"measures":{"us":{"amount":6.0,"unitShort":"","unitLong":""},"metric":{"amount":6.0,"unitShort":"","unitLong":""}}},{"id":1077,"aisle":"Milk,
+        Eggs, Other Dairy","image":"milk.png","consistency":"LIQUID","name":"milk","nameClean":"milk","original":"1
+        cup of milk,","originalName":"milk","amount":1.0,"unit":"cup","meta":[],"measures":{"us":{"amount":1.0,"unitShort":"cup","unitLong":"cup"},"metric":{"amount":236.588,"unitShort":"ml","unitLong":"milliliters"}}},{"id":4582,"aisle":"Oil,
+        Vinegar, Salad Dressing","image":"vegetable-oil.jpg","consistency":"LIQUID","name":"oil","nameClean":"cooking
+        oil","original":"1/3 cup of oil","originalName":"oil","amount":0.33333334,"unit":"cup","meta":[],"measures":{"us":{"amount":0.333,"unitShort":"cups","unitLong":"cups"},"metric":{"amount":78.863,"unitShort":"ml","unitLong":"milliliters"}}},{"id":2050,"aisle":"Baking","image":"vanilla-extract.jpg","consistency":"LIQUID","name":"vanilla","nameClean":"vanilla
+        extract","original":"1 tsp of vanilla,","originalName":"vanilla","amount":1.0,"unit":"tsp","meta":[],"measures":{"us":{"amount":1.0,"unitShort":"tsp","unitLong":"teaspoon"},"metric":{"amount":1.0,"unitShort":"tsp","unitLong":"teaspoon"}}}],"id":991625,"title":"Nutella
+        Buttercream Cupcakes with Hidden Cadbury Egg","readyInMinutes":35,"servings":6,"sourceUrl":"https://www.pinkwhen.com/nutella-buttercream-cupcakes-with-hidden-cadbury-egg/","image":"https://spoonacular.com/recipeImages/991625-556x370.jpg","imageType":"jpg","summary":"Nutella
+        Buttercream Cupcakes with Hidden Cadbury Egg could be just the <b>gluten free
+        and lacto ovo vegetarian</b> recipe you''ve been looking for. This recipe
+        makes 6 servings with <b>242 calories</b>, <b>10g of protein</b>, and <b>21g
+        of fat</b> each. For <b>54 cents per serving</b>, this recipe <b>covers 9%</b>
+        of your daily requirements of vitamins and minerals. A few people made this
+        recipe, and 14 would say it hit the spot. If you have milk, eggs, oil, and
+        a few other ingredients on hand, you can make it. This recipe is typical of
+        American cuisine. From preparation to the plate, this recipe takes approximately
+        <b>35 minutes</b>. It is brought to you by Pink When. Overall, this recipe
+        earns a <b>good spoonacular score of 73%</b>. <a href=\"https://spoonacular.com/recipes/egg-nog-hazelnut-cupcakes-with-nutella-buttercream-frosting-63942\">Egg
+        Nog-hazelnut Cupcakes With Nutella Buttercream Frosting</a>, <a href=\"https://spoonacular.com/recipes/cadbury-creme-egg-cupcakes-554644\">Cadbury
+        Creme Egg Cupcakes</a>, and <a href=\"https://spoonacular.com/recipes/chocolate-cupcakes-with-nutella-buttercream-591461\">Chocolate
+        Cupcakes with Nutella Buttercream</a> are very similar to this recipe.","cuisines":["American"],"dishTypes":["side
+        dish"],"diets":["gluten free","lacto ovo vegetarian","ketogenic"],"occasions":[],"winePairing":{"pairedWines":[],"pairingText":"","productMatches":[]},"instructions":"Preheat
+        oven to 350 degrees.\nGrease 6 jumbo muffin tin.\nCombine cake mix milk, vanilla
+        and oil. Mix till combined.\nAdd eggs beat till mixed well. Bake for 18- 21
+        min\nAfter cooking cupcakes use a spoon and cut out enough area to insert
+        Cadbury egg.\nMaking sure the smaller part of the egg is facing up.\nFrost
+        the cupcake hiding the Cadbury egg.","analyzedInstructions":[{"name":"","steps":[{"number":1,"step":"Preheat
+        oven to 350 degrees.","ingredients":[],"equipment":[{"id":404784,"name":"oven","localizedName":"oven","image":"oven.jpg"}]},{"number":2,"step":"Grease
+        6 jumbo muffin tin.","ingredients":[],"equipment":[{"id":404671,"name":"muffin
+        tray","localizedName":"muffin tray","image":"muffin-tray.jpg"}]},{"number":3,"step":"Combine
+        cake mix milk, vanilla and oil.","ingredients":[{"id":10018137,"name":"cake
+        mix","localizedName":"cake mix","image":""},{"id":1052050,"name":"vanilla","localizedName":"vanilla","image":"vanilla.jpg"},{"id":1077,"name":"milk","localizedName":"milk","image":"milk.png"},{"id":4582,"name":"cooking
+        oil","localizedName":"cooking oil","image":"vegetable-oil.jpg"}],"equipment":[]},{"number":4,"step":"Mix
+        till combined.","ingredients":[],"equipment":[]},{"number":5,"step":"Add eggs
+        beat till mixed well.","ingredients":[{"id":1123,"name":"egg","localizedName":"egg","image":"egg.png"}],"equipment":[]},{"number":6,"step":"Bake
+        for 18- 21 min","ingredients":[],"equipment":[{"id":404784,"name":"oven","localizedName":"oven","image":"oven.jpg"}]},{"number":7,"step":"After
+        cooking cupcakes use a spoon and cut out enough area to insert Cadbury egg.","ingredients":[{"id":18139,"name":"cupcakes","localizedName":"cupcakes","image":"plain-cupcake.jpg"},{"id":1123,"name":"egg","localizedName":"egg","image":"egg.png"}],"equipment":[]},{"number":8,"step":"Making
+        sure the smaller part of the egg is facing up.","ingredients":[{"id":1123,"name":"egg","localizedName":"egg","image":"egg.png"}],"equipment":[]},{"number":9,"step":"Frost
+        the cupcake hiding the Cadbury egg.","ingredients":[{"id":18139,"name":"cupcakes","localizedName":"cupcakes","image":"plain-cupcake.jpg"},{"id":1123,"name":"egg","localizedName":"egg","image":"egg.png"}],"equipment":[]}]}],"originalId":null,"spoonacularSourceUrl":"https://spoonacular.com/nutella-buttercream-cupcakes-with-hidden-cadbury-egg-991625"}'
+  recorded_at: Thu, 28 Jul 2022 00:52:49 GMT
+recorded_with: VCR 6.1.0
