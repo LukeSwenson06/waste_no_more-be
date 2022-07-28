@@ -16,13 +16,12 @@ Have you ever gone to your fridge excited to cook a meal and find all your food 
    ![simplecov](https://img.shields.io/gem/v/simplecov?label=simplecov&style=flat-square)
    ![VCR](https://img.shields.io/gem/v/vcr?label=VCR&style=flat-square)
    ![webmock](https://img.shields.io/gem/v/webmock?label=webmock&style=flat-square)
-   ![simplecov](https://img.shields.io/gem/v/simplecov?color=blue&label=simplecov)
-   ![figaro](https://img.shields.io/gem/v/simplecov?color=blue&label=figaro)
-   ![spring](https://img.shields.io/gem/v/simplecov?color=blue&label=spring)
-   ![faker](https://img.shields.io/gem/v/simplecov?color=blue&label=faker)
-   ![factory bot](https://img.shields.io/gem/v/simplecov?color=blue&label=factory_bot_rails)
-   ![faraday](https://img.shields.io/gem/v/simplecov?color=blue&label=faraday)
-   ![jsonapi-serializer](https://img.shields.io/gem/v/simplecov?color=blue&label=jsonapi-serializer)
+   ![figaro](https://img.shields.io/gem/v/figaro?color=blue&label=figaro)
+   ![spring](https://img.shields.io/gem/v/spring?color=blue&label=spring)
+   ![faker](https://img.shields.io/gem/v/faker?color=blue&label=faker)
+   ![factory bot](https://img.shields.io/gem/v/factory_bot_rails?color=blue&label=factory_bot_rails)
+   ![faraday](https://img.shields.io/gem/v/faraday?color=blue&label=faraday)
+   ![jsonapi-serializer](https://img.shields.io/gem/v/jsonapi-serializer?color=blue&label=jsonapi-serializer)
 
 ## Configuration 
 
