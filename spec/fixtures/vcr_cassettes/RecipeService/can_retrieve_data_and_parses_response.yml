@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/findByIngredients?apiKey=244f5d456f3e4d1d8c5e414081025f50&ingredients=milk,%20eggs&number=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 27 Jul 2022 23:59:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1642'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, Content-Language,
+        Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '1.1'
+      X-Api-Quota-Left:
+      - '148.9'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UsUx%2FxCg4OE8RaYfWve3spipsheY2MfP6tlscwfgrDsT2ah2L5TMbeNRM2D4Fx2TMMWXuIp57wavw2pCwyyUUzP6Y2R5%2Fs44Px38X5VRrt5M3btRvDmv4G250x%2BVPEdAvkjbeN4yRn4nHgAYYFOXM3E%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7319549ede158eb4-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":991625,"title":"Nutella Buttercream Cupcakes with Hidden Cadbury
+        Egg","image":"https://spoonacular.com/recipeImages/991625-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":2050,"amount":1.0,"unit":"tsp","unitLong":"teaspoon","unitShort":"tsp","aisle":"Baking","name":"vanilla","original":"1
+        tsp of vanilla,","originalName":"vanilla","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/vanilla-extract.jpg"}],"usedIngredients":[{"id":1123,"amount":4.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"4 eggs","originalName":"eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1 cup of milk,","originalName":"milk","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":14},{"id":665573,"title":"Yorkshire
+        Pudding","image":"https://spoonacular.com/recipeImages/665573-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":93713,"amount":0.5,"unit":"cup","unitLong":"cups","unitShort":"cup","aisle":"Meat","name":"roast
+        beef","original":"1/2 cup pan drippings from roast beef preferably","originalName":"pan
+        drippings from roast beef preferably","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/roast-beef-slices.jpg"}],"usedIngredients":[{"id":1123,"amount":3.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"3 eggs, slightly beaten","originalName":"eggs,
+        slightly beaten","meta":["slightly beaten"],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1 cup milk","originalName":"milk","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":11},{"id":641890,"title":"Easy
+        Cheesy Scrambled Eggs","image":"https://spoonacular.com/recipeImages/641890-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":1001025,"amount":0.5,"unit":"cup","unitLong":"cups","unitShort":"cup","aisle":"Cheese","name":"jack
+        cheese","original":"1/2 cup shredded jack cheese","originalName":"shredded
+        jack cheese","meta":["shredded"],"extendedName":"shredded jack cheese","image":"https://spoonacular.com/cdn/ingredients_100x100/shredded-cheese-white.jpg"}],"usedIngredients":[{"id":1123,"amount":8.0,"unit":"large","unitLong":"larges","unitShort":"large","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"8 large eggs","originalName":"eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":0.25,"unit":"cup","unitLong":"cups","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1/4 cup milk or cream","originalName":"milk
+        or cream","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":3},{"id":635964,"title":"Bread
+        Omlette","image":"https://spoonacular.com/recipeImages/635964-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":18079,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Pasta
+        and Rice","name":"bread crumbs","original":"1 cup Fresh bread crumbs","originalName":"Fresh
+        bread crumbs","meta":["fresh"],"extendedName":"fresh bread crumbs","image":"https://spoonacular.com/cdn/ingredients_100x100/breadcrumbs.jpg"}],"usedIngredients":[{"id":1123,"amount":4.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"4 Eggs","originalName":"Eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1 cup Boiled milk","originalName":"Boiled
+        milk","meta":["boiled"],"extendedName":"cooked milk","image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1},{"id":633574,"title":"Baked
+        Custard","image":"https://spoonacular.com/recipeImages/633574-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":2050,"amount":0.5,"unit":"teaspoon","unitLong":"teaspoons","unitShort":"tsp","aisle":"Baking","name":"vanilla","original":"1/2
+        teaspoon vanilla","originalName":"vanilla","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/vanilla-extract.jpg"}],"usedIngredients":[{"id":1123,"amount":4.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"4 eggs","originalName":"eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":2.0,"unit":"cups","unitLong":"cups","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"2 cups milk, scalded","originalName":"milk,
+        scalded","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1},{"id":652952,"title":"Napoleon
+        - A Creamy Puff Pastry Cake","image":"https://spoonacular.com/recipeImages/652952-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":18337,"amount":2.0,"unit":"sheets","unitLong":"sheets","unitShort":"sheets","aisle":"Refrigerated;Frozen","name":"puff
+        pastry","original":"2 10''''x10'''' (25cm x 25cm) puff pastry sheets","originalName":"10''''x10''''
+        (25cm x 25cm) puff pastry sheets","meta":["(25cm x 25cm)"],"image":"https://spoonacular.com/cdn/ingredients_100x100/puff-pastry.png"}],"usedIngredients":[{"id":1123,"amount":6.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"6 Hard cooked eggs","originalName":"Hard
+        cooked eggs","meta":["hard","cooked"],"extendedName":"cooked eggs","image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":0.25,"unit":"gallon","unitLong":"gallons","unitShort":"gallon","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1/4 gallon milk","originalName":"milk","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1},{"id":665574,"title":"Yokshire
+        Pudding","image":"https://spoonacular.com/recipeImages/665574-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":1,"missedIngredients":[{"id":23572,"amount":2.0,"unit":"ounces","unitLong":"ounces","unitShort":"oz","aisle":"Frozen;Meat","name":"beef","original":"2
+        ounces Lard or Beef Dripping","originalName":"Lard or Beef Dripping","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/beef-cubes-raw.png"}],"usedIngredients":[{"id":1123,"amount":1.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"egg","original":"1 Egg","originalName":"Egg","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"pint","unitLong":"pint","unitShort":"pts","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"pint Milk","originalName":"Milk","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1},{"id":638717,"title":"Chinese
+        Steamed Flan","image":"https://spoonacular.com/recipeImages/638717-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":2,"missedIngredients":[{"id":9316,"amount":6.0,"unit":"servings","unitLong":"servings","unitShort":"servings","aisle":"Produce","name":"strawberries","original":"strawberries","originalName":"strawberries","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/strawberries.png"},{"id":2050,"amount":1.0,"unit":"tsp","unitLong":"teaspoon","unitShort":"tsp","aisle":"Baking","name":"vanilla","original":"1
+        tsp vanilla","originalName":"vanilla","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/vanilla-extract.jpg"}],"usedIngredients":[{"id":1123,"amount":4.0,"unit":"large","unitLong":"larges","unitShort":"large","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"4 large eggs","originalName":"eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":2.0,"unit":"cups","unitLong":"cups","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"whole milk","original":"2 cups whole milk","originalName":"whole
+        milk","meta":["whole"],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":9},{"id":639492,"title":"Cinnamon
+        Twists","image":"https://spoonacular.com/recipeImages/639492-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":2,"missedIngredients":[{"id":18375,"amount":1.0,"unit":"package","unitLong":"package","unitShort":"pkg","aisle":"Baking","name":"active
+        yeast","original":"1 package active dry yeast","originalName":"active dry
+        yeast","meta":["dry"],"extendedName":"dry active yeast","image":"https://spoonacular.com/cdn/ingredients_100x100/yeast-granules.jpg"},{"id":1001,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"butter","original":"cup butter or margarine","originalName":"butter
+        or margarine","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"}],"usedIngredients":[{"id":1123,"amount":2.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"2 eggs","originalName":"eggs","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1 cup milk","originalName":"milk","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":9},{"id":643972,"title":"Fruit
+        Crepe","image":"https://spoonacular.com/recipeImages/643972-312x231.jpg","imageType":"jpg","usedIngredientCount":2,"missedIngredientCount":2,"missedIngredients":[{"id":18010,"amount":2.0,"unit":"cups","unitLong":"cups","unitShort":"cup","aisle":"Baking","name":"bisquick","original":"2
+        cups Bisquick","originalName":"Bisquick","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/buttermilk-biscuits.jpg"},{"id":2010,"amount":3.0,"unit":"tablespoons","unitLong":"tablespoons","unitShort":"Tbsp","aisle":"Spices
+        and Seasonings","name":"cinnamon","original":"3 tablespoons cinnamon","originalName":"cinnamon","meta":[],"image":"https://spoonacular.com/cdn/ingredients_100x100/cinnamon.jpg"}],"usedIngredients":[{"id":1123,"amount":3.0,"unit":"","unitLong":"","unitShort":"","aisle":"Milk,
+        Eggs, Other Dairy","name":"eggs","original":"3 Eggs beaten","originalName":"Eggs
+        beaten","meta":["beaten"],"image":"https://spoonacular.com/cdn/ingredients_100x100/egg.png"},{"id":1077,"amount":1.0,"unit":"cup","unitLong":"cup","unitShort":"cup","aisle":"Milk,
+        Eggs, Other Dairy","name":"milk","original":"1 cup cold milk","originalName":"cold
+        milk","meta":["cold"],"image":"https://spoonacular.com/cdn/ingredients_100x100/milk.png"}],"unusedIngredients":[],"likes":1}]'
+  recorded_at: Wed, 27 Jul 2022 23:59:44 GMT
+recorded_with: VCR 6.1.0
