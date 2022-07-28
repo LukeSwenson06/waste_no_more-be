@@ -1,7 +1,8 @@
 require 'rails_helper'
-RSpec.describe "New Party Page" do
+describe "Create an item request", type: :request do
+  it "creates an item" do
   user = create(:user)
-  params = { name: "Apple", experation: "2112-12-21"}
+  params = { name: "Apple", expiration: "2112-12-21", user_id: user.id}
   headers = { "Content-Type" => "application/json" }
 
   item_count = Item.all.length
@@ -12,4 +13,5 @@ RSpec.describe "New Party Page" do
   expect(Item.all.length).to eq(item_count + 1)
 
   created = JSON.parse(response.body, symbolize_names: true)
+  end
 end
