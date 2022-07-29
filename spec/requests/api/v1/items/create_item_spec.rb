@@ -29,4 +29,16 @@ describe "Create an item request", type: :request do
 
     created = JSON.parse(response.body, symbolize_names: true)
   end
+  it "created items belong to a user" do
+    user = create(:user)
+    params = { name: "Apple", expiration: "2112-12-21", user_id: user.id}
+    headers = { "Content-Type" => "application/json" }
+
+    post "/api/v1/items", headers: headers, params: JSON.generate(params)
+
+    expect(response).to be_successful
+    expect(user.items.count).to eq(1)
+
+    created = JSON.parse(response.body, symbolize_names: true)
+  end
 end
