@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'RecipeService' do
   it "can retrieve data and parses response for ingredients connection", :vcr do
-    parsed_json = RecipeService.get_recipe_by_ingredients('milk,+eggs')
+    parsed_json = RecipeService.get_recipes('milk,+eggs')
 
     expect(parsed_json).to be_a Array
     recipe = parsed_json.first
@@ -12,7 +12,7 @@ RSpec.describe 'RecipeService' do
   end
 
   it "can retrieve data and parses response for searching recipe by id", :vcr do
-    parsed_json = RecipeService.get_recipe_details(991625)
+    parsed_json = RecipeService.get_recipe_url(991625)
 
     expect(parsed_json).to be_a Hash
     expect(parsed_json).to include("id", "title", "sourceUrl")
