@@ -4,6 +4,10 @@ class Api::V1::ItemsController < ApplicationController
     item.save
     render json: ItemSerializer.new(item), status: :created
   end
+
+  def destroy
+    Item.find(params[:id]).delete
+  end
 end
 
 private
