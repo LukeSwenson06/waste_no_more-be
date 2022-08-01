@@ -1,5 +1,6 @@
 class Api::V1::ItemsController < ApplicationController
   def create
+    binding.pry
     if !params.keys.include?("name")
       render json: { "error": "an item must have a name"}, status: 400
     elsif !params.keys.include?("expiration")
