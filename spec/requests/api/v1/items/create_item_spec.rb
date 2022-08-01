@@ -6,7 +6,6 @@ describe "Create an item request", type: :request do
   headers = { "Content-Type" => "application/json" }
 
   item_count = Item.all.length
-  # allow(Date).to receive(:today).and_return Date.new(2001,2,3)
 
   post "/api/v1/items", headers: headers, params: JSON.generate(params)
 
