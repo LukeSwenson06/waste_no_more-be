@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::API
-  # helper_method :current_user
-  #
-  # def current_user
-  #   @user = User.find(session[:user_id]) if session[:user_id]
-  # end
+  def days_until_expired(expiration)
+    binding.pry
+    (expiration - Date.today).to_i
+  end
 end
