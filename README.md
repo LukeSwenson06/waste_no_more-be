@@ -23,15 +23,15 @@ Have you ever gone to your fridge excited to cook a meal and find all your food 
    ![faraday](https://img.shields.io/gem/v/faraday?color=blue&label=faraday)
    ![jsonapi-serializer](https://img.shields.io/gem/v/jsonapi-serializer?color=blue&label=jsonapi-serializer)
 
-## Configuration 
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+### Set Up
+- Clone this repo
+- `bundle install`
+- `bundle exec figaro install`
+- `rails s`
 
 
 ## Database Creation
+- `rails db:{create,migrate}``
 
 ## Database Initialization
 
