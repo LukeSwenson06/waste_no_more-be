@@ -2,7 +2,7 @@ require 'rails_helper'
 describe "Create an item request", type: :request do
   it "creates an item" do
   user = create(:user)
-  params = { name: "Apple", expiration: "2112-12-21", user_id: user.id}
+  params = { name: "Apple", expiration: "2112-12-21", email: user.email}
   headers = { "Content-Type" => "application/json" }
 
   item_count = Item.all.length
@@ -17,7 +17,7 @@ describe "Create an item request", type: :request do
 
   it "does not create item without all params" do
     user = create(:user)
-    params = {expiration: "2112-12-21", user_id: user.id}
+    params = {expiration: "2112-12-21", email: user.email}
     headers = { "Content-Type" => "application/json" }
 
     item_count = Item.all.length
@@ -31,7 +31,7 @@ describe "Create an item request", type: :request do
   end
   it "created items belong to a user" do
     user = create(:user)
-    params = { name: "Apple", expiration: "2112-12-21", user_id: user.id}
+    params = { name: "Apple", expiration: "2112-12-21", email: user.email}
     headers = { "Content-Type" => "application/json" }
 
     post "/api/v1/items", headers: headers, params: JSON.generate(params)
