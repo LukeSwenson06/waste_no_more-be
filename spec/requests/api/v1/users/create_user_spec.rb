@@ -21,6 +21,5 @@ RSpec.describe 'create a user endpoint' do
     post "/api/v1/users", headers: headers, params: JSON.generate(params)
 
     expect(response).to_not be_successful
-
   end
 end
