@@ -5,10 +5,7 @@ class Api::V1::ItemsController < ApplicationController
     elsif !params.keys.include?("expiration")
       render json: { "error": "an item must have an expiration"}, status: 400
     else
-      item = Item.create!(name: params[:name],
-                          expiration: params[:expiration],
-                          user_id: params[:user_id],
-                          days_til_expiration: (params[:expiration].to_date - Date.today).to_i )
+      item = Item.create!(item_params )
       item.save
       render json: ItemSerializer.new(item), status: :created
     end
