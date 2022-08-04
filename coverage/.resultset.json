@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/models/items_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/models/groceries_spec.rb": {
         "lines": [
           1,
           null,
@@ -12,7 +12,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/environment.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -21,7 +21,7 @@
           1
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/application.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/application.rb": {
         "lines": [
           1,
           null,
@@ -60,7 +60,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/boot.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -68,7 +68,7 @@
           1
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/environments/test.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -118,7 +118,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/application_controller_renderer.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -130,7 +130,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/backtrace_silencers.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -141,7 +141,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/cors.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -161,7 +161,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/filter_parameter_logging.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -169,7 +169,7 @@
           1
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/inflections.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -189,7 +189,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/mime_types.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -197,7 +197,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/initializers/wrap_parameters.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -215,7 +215,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/factories/item.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/factories/item.rb": {
         "lines": [
           1,
           1,
@@ -225,17 +225,17 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/factories/user.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/factories/user.rb": {
         "lines": [
           1,
           1,
-          10,
-          10,
+          13,
+          13,
           null,
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/config/routes.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -246,31 +246,27 @@
           null,
           1,
           1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/models/item.rb": {
-        "lines": [
           1,
-          1,
-          null,
-          null,
-          null,
           null,
           null,
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/models/application_record.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/models/grocery.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/models/user_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/models/items_spec.rb": {
         "lines": [
           1,
           null,
@@ -281,7 +277,30 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/models/user.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/models/user.rb": {
         "lines": [
           1,
           1,
@@ -290,7 +309,57 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/requests/api/v1/items/create_item_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/requests/api/v1/groceries/create_grocery_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/requests/api/v1/items/create_item_spec.rb": {
         "lines": [
           1,
           1,
@@ -356,7 +425,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/requests/api/v1/users/find_create_user_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/requests/api/v1/users/find_create_user_spec.rb": {
         "lines": [
           1,
           null,
@@ -377,7 +446,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/requests/api/v1/users/find_one_user_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/requests/api/v1/users/find_one_user_spec.rb": {
         "lines": [
           1,
           null,
@@ -403,7 +472,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/requests/api/v1/users/users_items_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/requests/api/v1/users/users_items_spec.rb": {
         "lines": [
           1,
           null,
@@ -453,7 +522,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/spec/services/api/v1/delete_item_spec.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/spec/services/api/v1/delete_item_spec.rb": {
         "lines": [
           1,
           1,
@@ -473,7 +542,57 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/controllers/api/v1/items_controller.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/controllers/api/v1/groceries_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/serializers/grocery_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/controllers/api/v1/items_controller.rb": {
         "lines": [
           1,
           1,
@@ -500,17 +619,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/serializers/item_serializer.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/serializers/item_serializer.rb": {
         "lines": [
           1,
           1,
@@ -518,7 +627,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/controllers/api/v1/users_controller.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/controllers/api/v1/users_controller.rb": {
         "lines": [
           1,
           1,
@@ -528,6 +637,7 @@
           null,
           1,
           1,
+          null,
           1,
           1,
           null,
@@ -537,7 +647,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/serializers/user_serializer.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/serializers/user_serializer.rb": {
         "lines": [
           1,
           1,
@@ -545,7 +655,7 @@
           null
         ]
       },
-      "/Users/drewproebstel/turing/rmodule/waste_no_more/waste_no_more-be/app/controllers/api/v1/users/users_items_controller.rb": {
+      "/Users/antoniosalmeron/turing/3module/projects/waste_no_more-be/app/controllers/api/v1/users/users_items_controller.rb": {
         "lines": [
           1,
           1,
@@ -558,6 +668,6 @@
         ]
       }
     },
-    "timestamp": 1659484207
+    "timestamp": 1659634911
   }
 }

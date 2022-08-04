@@ -6,6 +6,7 @@ class Api::V1::UsersController < ApplicationController
 
   def show
     user = User.find_by(email: params[:email])
+    
     if user
       render json: UserSerializer.new(user)
     else
