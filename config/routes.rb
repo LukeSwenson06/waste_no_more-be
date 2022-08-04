@@ -6,6 +6,7 @@ Rails.application.routes.draw do
           resources :items, only: [:index], controller: "users_items"
         end
         resources :items, only: [:create, :destroy] 
+        resources :groceries, only: [:index, :create, :destroy] 
         resources :users, only: [:create] 
       end
     end
