@@ -26,35 +26,38 @@ Have you ever gone to your fridge excited to cook a meal and find all your food 
    ![faraday](https://img.shields.io/gem/v/faraday?color=blue&label=faraday)
    ![jsonapi-serializer](https://img.shields.io/gem/v/jsonapi-serializer?color=blue&label=jsonapi-serializer)
 
-### Set Up
+## Set Up
 - Clone this repo
 - `bundle install`
 - `rails s`
 
-### Database Creation
+## Database Creation
 - `rails db:{create,migrate}``
 
-### Database Structure
+## Database Structure
 
 ![Database](/images/Screen%20Shot%202022-08-04%20at%205.06.21%20PM.png)
 
-### Testing Instructions
+## Testing Instructions
+
  - Clone this repo
  - in terminal (apple or integrated)    
     * bundle install
     * bundle exec rspec 
 
-### Deployment Instructions
+## Deployment Instructions
+
 - Once both database and testing instructions are completed
-- visit ![Front End Database](https://github.com/LukeSwenson06/waste-no-more-fe)
+- visit ![Front End Database][https://github.com/LukeSwenson06/waste-no-more-fe]
     - follow installation instructions
 
-### End Points
+## End Points
+
+#### Add item to fridge 
 
 ```
 get https://waste-no-more-fe.herokuapp.com/api/v1/items/create
 ```
-Add item to fridge 
 
 ```
 {
@@ -68,6 +71,66 @@ Add item to fridge
   }
 }
 ```
+
+#### Add item to fridge 
+
+```
+get https://waste-no-more-fe.herokuapp.com/api/v1/items/delete
+```
+
+```
+{
+  "data": {
+        "id": "2511",
+        "type": "item",
+        "attributes" : {
+          "name": "apple",
+          "expiration": "2012-12-21"
+        }
+  }
+}
+```
+
+#### Show a User
+
+```
+get https://waste-no-more-fe.herokuapp.com/api/v1/users/show
+```
+
+```
+{
+  "data": {
+      "id": "2112",
+      "type": "user",
+      "attributes" : {
+        "name": "Geddy",
+        "email": "rocinante@cygnus.com"
+      }
+    }
+}
+```
+
+#### Create a User
+
+```
+get https://waste-no-more-fe.herokuapp.com/api/v1/users/create
+```
+
+```
+{
+  "data": {
+      "id": "2112",
+      "type": "user",
+      "attributes" : {
+        "name": "Geddy",
+        "email": "rocinante@cygnus.com"
+      }
+    }
+}
+```
+
+
+
 ## Contributions
 <a href="https://github.com/LukeSwenson06/waste-no-more-fe/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=LukeSwenson06/waste-no-more-fe" />
