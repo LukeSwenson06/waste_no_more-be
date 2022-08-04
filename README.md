@@ -31,8 +31,6 @@ Have you ever gone to your fridge excited to cook a meal and find all your food 
 - `bundle install`
 - `rails s`
 
-### API's
-
 ### Database Creation
 - `rails db:{create,migrate}``
 
@@ -46,12 +44,16 @@ Have you ever gone to your fridge excited to cook a meal and find all your food 
     * bundle install
     * bundle exec rspec 
 
-
 ### Deployment Instructions
-
+- Once both database and testing instructions are completed
+- visit ![Front End Database](https://github.com/LukeSwenson06/waste-no-more-fe)
+    - follow installation instructions
 
 ### End Points
 
+```
+get https://waste-no-more-fe.herokuapp.com/api/v1/items/create
+```
 Add item to fridge 
 
 ```
