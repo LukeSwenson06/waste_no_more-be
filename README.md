@@ -61,3 +61,36 @@ Add item to fridge
   }
 }
 ```
+
+Get User's Items
+https://waste-no-more-be.herokuapp.com/api/v1/users/item
+
+```
+{:data=>
+  [{:id=>"49",
+    :type=>"item",
+    :attributes=>{:id=>49, :name=>"honey dew", :expiration=>"2022-08-04", :days_til_expiration=>nil}},
+   {:id=>"44",
+    :type=>"item",
+    :attributes=>{:id=>44, :name=>"milk", :expiration=>"2022-08-10", :days_til_expiration=>nil}}]}
+```
+
+
+Get User's Groceries
+https://waste-no-more-be.herokuapp.com/api/v1/groceries
+
+```
+{:data=>
+  [{:id=>"18", :type=>"grocery", :attributes=>{:id=>18, :name=>"bananas"}},
+   {:id=>"19", :type=>"grocery", :attributes=>{:id=>19, :name=>"cold brew"}}]}
+```
+
+
+Create Grocery
+https://waste-no-more-be.herokuapp.com/api/v1/groceries
+
+```
+{:data=>
+  [{:id=>"18", :type=>"grocery", :attributes=>{:id=>18, :name=>"bananas"}},
+   {:id=>"19", :type=>"grocery", :attributes=>{:id=>19, :name=>"cold brew"}}]}
+```
