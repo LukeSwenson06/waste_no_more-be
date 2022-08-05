@@ -130,7 +130,7 @@ get https://waste-no-more-fe.herokuapp.com/api/v1/users/create
 ```
 
 #### Get User's Items
-``` get https://waste-no-more-be.herokuapp.com/api/v1/users/item ``
+``` get https://waste-no-more-be.herokuapp.com/api/v1/users/item ```
 
 ```
 {:data=>
