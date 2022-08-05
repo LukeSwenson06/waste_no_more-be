@@ -130,7 +130,9 @@ get https://waste-no-more-fe.herokuapp.com/api/v1/users/create
 ```
 
 #### Get User's Items
-``` get https://waste-no-more-be.herokuapp.com/api/v1/users/item ```
+```
+get https://waste-no-more-be.herokuapp.com/api/v1/users/item 
+```
 
 ```
 {:data=>
@@ -144,7 +146,9 @@ get https://waste-no-more-fe.herokuapp.com/api/v1/users/create
 
 
 #### Get User's Groceries
-```get https://waste-no-more-be.herokuapp.com/api/v1/groceries```
+```
+get https://waste-no-more-be.herokuapp.com/api/v1/groceries
+```
 
 ```
 {:data=>
@@ -154,7 +158,9 @@ get https://waste-no-more-fe.herokuapp.com/api/v1/users/create
 
 
 #### Create Grocery
-```get https://waste-no-more-be.herokuapp.com/api/v1/groceries```
+```
+get https://waste-no-more-be.herokuapp.com/api/v1/groceries
+```
 
 ```
 {:data=>
