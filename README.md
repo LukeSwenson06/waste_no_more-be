@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/rG1VD2K.png" />
 </p>
 <center><h1>Info</h1></center>
-Have you ever gone to your fridge excited to cook a meal and find all your food is expired? Has it really been a week since you got them? This application can help you. This application will have users take pictures (or manual entries if the user doesn't have a camera) of the items that you get when going grocery shopping. Once the picture is taken of the label and expiration date, the item is saved to a user’s database. These items can then be tracked according to expiration date to try to combat the amount of food wasted each year by expiring.
+Have you ever gone to your fridge excited to cook a meal and find all your food is expired? Has it really been a week since you got them? This application can help you. 
 
 ## About the Project
  Waste No More is an application dedicated to help people reduce food waste at home by tracking food items, expiration dates, and help locate the nearest donation centers for food close to expiring. Resources are provided to educate users on food waste management, food storage and how to donate food. This project was created for the 2203 Backend Program Module 3 Consultancy Project.  
